@@ -8,3 +8,6 @@ function toggleTheme() {
 
   darkMode = !darkMode;
 }
+
+//Initial Theme Setup
+window.onload = toggleTheme;
